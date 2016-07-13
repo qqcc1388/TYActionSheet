@@ -1,6 +1,6 @@
 ###TYActionSheet 可以深度定制的ActionSheet
 
-![](https://github.com/qqcc1388/TYActionSheet/TYActionSheet/TYActionSheet.gif)
+![](https://github.com/qqcc1388/TYActionSheet/blob/master/TYActionSheet/TYActionSheet.gif)
 
 * 创建方法1 - acton提供统一回调方法，action headle = nil
 
