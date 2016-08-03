@@ -17,7 +17,7 @@ typedef void(^TYActionCallBack)(TYAction *action,NSString *title);
 
 @interface TYAction : UITableViewCell
 
--(instancetype)initWithActionTitle:(NSString *)title Image:(NSString *)image;
+-(instancetype)initWithActionTitle:(NSString *)title LeftImage:(NSString *)leftImage RightImage:(NSString *)rightImage;
 
 @property (nonatomic,copy)NSString *currentTitle;
 

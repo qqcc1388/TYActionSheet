@@ -18,7 +18,7 @@
 		876B89A81D35F1F6001B0DBF /* TYAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 876B89A41D35F1F6001B0DBF /* TYAction.m */; };
 		876B89A91D35F1F6001B0DBF /* TYAction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876B89A51D35F1F6001B0DBF /* TYAction.xib */; };
 		876B89AA1D35F1F6001B0DBF /* TYActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 876B89A71D35F1F6001B0DBF /* TYActionSheet.m */; };
-		876B89AC1D360468001B0DBF /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 876B89AB1D360468001B0DBF /* test.png */; };
+		87A907861D51DB9600497AFF /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A907851D51DB9600497AFF /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		876B89A51D35F1F6001B0DBF /* TYAction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYAction.xib; sourceTree = "<group>"; };
 		876B89A61D35F1F6001B0DBF /* TYActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYActionSheet.h; sourceTree = "<group>"; };
 		876B89A71D35F1F6001B0DBF /* TYActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYActionSheet.m; sourceTree = "<group>"; };
-		876B89AB1D360468001B0DBF /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		87A907851D51DB9600497AFF /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,7 @@
 				876B89731D35F1EA001B0DBF /* AppDelegate.m */,
 				876B89751D35F1EA001B0DBF /* ViewController.h */,
 				876B89761D35F1EA001B0DBF /* ViewController.m */,
+				87A907851D51DB9600497AFF /* test.png */,
 				876B89781D35F1EA001B0DBF /* Main.storyboard */,
 				876B897B1D35F1EA001B0DBF /* Assets.xcassets */,
 				876B897D1D35F1EA001B0DBF /* LaunchScreen.storyboard */,
@@ -128,7 +129,6 @@
 		876B896F1D35F1EA001B0DBF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				876B89AB1D360468001B0DBF /* test.png */,
 				876B89701D35F1EA001B0DBF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -268,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				876B89A91D35F1F6001B0DBF /* TYAction.xib in Resources */,
-				876B89AC1D360468001B0DBF /* test.png in Resources */,
+				87A907861D51DB9600497AFF /* test.png in Resources */,
 				876B897F1D35F1EA001B0DBF /* LaunchScreen.storyboard in Resources */,
 				876B897C1D35F1EA001B0DBF /* Assets.xcassets in Resources */,
 				876B897A1D35F1EA001B0DBF /* Main.storyboard in Resources */,

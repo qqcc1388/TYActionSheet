@@ -38,12 +38,11 @@
  */
 -(void)addActon1
 {
-    TYActionSheet *actionSheet = [[TYActionSheet alloc] initActionSheetWithTitle:@"标题"];
+    TYActionSheet *actionSheet = [[TYActionSheet alloc] initActionSheetWithTitle:@"切换频道"];
     
-    //创建acton
-    TYAction *action1 = [[TYAction alloc] initWithActionTitle:@"内容1" Image:nil];
-    TYAction *action2 = [[TYAction alloc] initWithActionTitle:@"内容2" Image:@"test"];
-    TYAction *action3 = [[TYAction alloc] initWithActionTitle:@"内容3" Image:@"test"];
+    TYAction *action1 = [[TYAction alloc] initWithActionTitle:@"猜你喜欢"LeftImage:@"test" RightImage:nil];
+    TYAction *action2 = [[TYAction alloc] initWithActionTitle:@"离线歌曲"LeftImage:@"test" RightImage:@"test"];
+    TYAction *action3 = [[TYAction alloc] initWithActionTitle:@"最近播放"LeftImage:@"test" RightImage:nil];
     //添加action
     [actionSheet addAction:action1 handle:nil];
     [actionSheet addAction:action2 handle:nil];
@@ -61,11 +60,11 @@
  */
 -(void)addActon2
 {
-    TYActionSheet *actionSheet = [[TYActionSheet alloc] initActionSheetWithTitle:@"标题"];
-    //创建acton
-    TYAction *action1 = [[TYAction alloc] initWithActionTitle:@"内容1" Image:nil];
-    TYAction *action2 = [[TYAction alloc] initWithActionTitle:@"内容2" Image:@"test"];
-    TYAction *action3 = [[TYAction alloc] initWithActionTitle:@"内容3" Image:@"test"];
+    TYActionSheet *actionSheet = [[TYActionSheet alloc] initActionSheetWithTitle:@"切换频道"];
+    
+    TYAction *action1 = [[TYAction alloc] initWithActionTitle:@"猜你喜欢"LeftImage:@"test" RightImage:nil];
+    TYAction *action2 = [[TYAction alloc] initWithActionTitle:@"离线歌曲"LeftImage:@"test" RightImage:@"test"];
+    TYAction *action3 = [[TYAction alloc] initWithActionTitle:@"最近播放"LeftImage:@"test" RightImage:nil];
     
     //添加action 并提供回调
     [actionSheet addAction:action1 handle:^(TYAction *acton,NSString *title) {

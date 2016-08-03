@@ -35,6 +35,13 @@
                             <constraint firstAttribute="height" constant="1" id="2rP-Mw-67C"/>
                         </constraints>
                     </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oCA-hM-imc">
+                        <rect key="frame" x="110" y="19" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9KX-Cl-Iia"/>
+                            <constraint firstAttribute="width" constant="20" id="9WK-y7-7A3"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="4GL-8R-3MO" firstAttribute="leading" secondItem="t7l-f1-KtR" secondAttribute="leadingMargin" id="LIq-4x-Tby"/>
@@ -45,10 +52,12 @@
                     <constraint firstItem="B2G-Xd-Mdt" firstAttribute="centerY" secondItem="XuE-F0-oX6" secondAttribute="centerY" id="fyt-ui-dEm"/>
                     <constraint firstItem="4GL-8R-3MO" firstAttribute="leading" secondItem="t7l-f1-KtR" secondAttribute="leadingMargin" id="ihs-gK-FBb"/>
                     <constraint firstItem="XuE-F0-oX6" firstAttribute="centerX" secondItem="t7l-f1-KtR" secondAttribute="centerX" id="lqJ-eU-cFv"/>
+                    <constraint firstItem="XuE-F0-oX6" firstAttribute="leading" secondItem="oCA-hM-imc" secondAttribute="trailing" constant="10" id="m3Q-Vx-Yj7"/>
                     <constraint firstItem="4GL-8R-3MO" firstAttribute="leading" secondItem="t7l-f1-KtR" secondAttribute="leading" id="naM-6h-HTr"/>
                     <constraint firstAttribute="trailingMargin" secondItem="4GL-8R-3MO" secondAttribute="trailing" id="nbE-p4-yT2"/>
                     <constraint firstAttribute="bottomMargin" secondItem="4GL-8R-3MO" secondAttribute="bottom" id="oY2-cc-Eo7"/>
                     <constraint firstAttribute="bottom" secondItem="4GL-8R-3MO" secondAttribute="bottom" id="sb6-qN-noz"/>
+                    <constraint firstItem="oCA-hM-imc" firstAttribute="centerY" secondItem="XuE-F0-oX6" secondAttribute="centerY" id="sqb-Bc-aUE"/>
                 </constraints>
                 <variation key="default">
                     <mask key="constraints">
@@ -61,10 +70,11 @@
                 </variation>
             </tableViewCellContentView>
             <connections>
-                <outlet property="imgView" destination="B2G-Xd-Mdt" id="CdK-gj-Jp6"/>
+                <outlet property="leftImgView" destination="oCA-hM-imc" id="FsS-RP-mTb"/>
+                <outlet property="rightImgView" destination="B2G-Xd-Mdt" id="6gO-uV-jpi"/>
                 <outlet property="titleLabel" destination="XuE-F0-oX6" id="sBo-2x-M1R"/>
             </connections>
-            <point key="canvasLocation" x="423" y="278"/>
+            <point key="canvasLocation" x="370" y="278"/>
         </tableViewCell>
     </objects>
 </document>

@@ -11,17 +11,20 @@
 @interface TYAction ()
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UIImageView *leftImgView;
+
+@property (weak, nonatomic) IBOutlet UIImageView *rightImgView;
 @end
 
 @implementation TYAction
 
--(instancetype)initWithActionTitle:(NSString *)title Image:(NSString *)image {
+-(instancetype)initWithActionTitle:(NSString *)title LeftImage:(NSString *)leftImage RightImage:(NSString *)rightImage {
     
     TYAction *action = [[[NSBundle mainBundle] loadNibNamed:@"TYAction" owner:self options:nil] lastObject];
     action.titleLabel.text = title;
     action.currentTitle = title;
-    action.imgView.image = [UIImage imageNamed:image];
+    action.leftImgView.image = [UIImage imageNamed:leftImage];
+    action.rightImgView.image = [UIImage imageNamed:rightImage];
     return  action;
 }
 @end
